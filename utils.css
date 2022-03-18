@@ -1,0 +1,40 @@
+.debug{
+  background-color: rgba(255, 0, 0, 0.3);
+  border: 1px solid black;
+}
+
+.d-flex{
+  display: flex;
+}
+.end{
+  justify-content: flex-end;
+}
+
+.content.d-flex{
+  flex-wrap: wrap;
+}
+
+.h50{
+  height: 50px;
+}
+.h100{
+  height: 100px;
+}
+
+.h300{
+  height: 300px;
+}
+
+.h500{
+  height: 500px;
+}
+
+.w15{
+  width: 15%;
+}
+.w30{
+  width: 30%;
+}
+.w40{
+  width: 40%;
+}
