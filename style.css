@@ -2,6 +2,10 @@ header{
   height: 50px;
   background-color: black;
 }
+main{
+  background-color: black;
+}
+
 .header-text{
   font-size: 14px;
   color: white;
@@ -13,12 +17,12 @@ header{
   padding: 0 5px;
 }
 
-.content{
+.content.d-flex{
   /* width: 90%; */
-   margin: 0 auto; 
+   /* margin: 0 auto;  */
    /* height: 80vh; */
    height: calc(100vh-100px);
-  width: 90vw;
+  /* width: 90vw; */
   justify-content: center;
   align-items: center;
   overflow-y: scroll;
@@ -42,9 +46,48 @@ margin-top: 8px;
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 5px;
+  font-size: 10px;
+  color: white;
 }
 .userimg{
   height: 100px;
   width: 100%;
 }
+
+footer{
+  height: 59px;
+ align-items: center;
+ color: white;
+ width: 100vw;
+ background-color: #222222;
+}
+
+.nav-sx{
+  text-align: center;
+}
+.nav-sx ul li{
+  margin-right: 10px;
+}
+.nav-cent{
+  text-align: center;
+}
+.nav-cent ul li{
+  margin-right: 10px;
+}
+.f-dx{
+  background-color: #4a4a4a;
+  height: 100%;
+  align-items: center;
+}
+.end-button{
+  color: red;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+  
+
+

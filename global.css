@@ -5,7 +5,39 @@
   /* background-color: black; */
   /* color: white; */
 }
+main{
+  height: calc(100vh-100px);
+}
+.header-text{
+  cursor: pointer;
+}
+ul {
+ 
+  list-style: none;
+}
+footer i {
+  font-size: 25px; 
+}
 
+footer li{
+  cursor: pointer;
+}
+
+footer li:hover{
+  text-decoration: underline;
+}
+
+.f-dx.d-flex{
+  cursor: pointer;
+}
+
+.fa-solid.fa-share-from-square{
+  color: lime;
+}
+.fa-solid.fa-chevron-up{
+  font-size: 10px;
+  margin-top: 15px;
+}
 
 /* .content.debug{
   height: calc(100vh-100px);
